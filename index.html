@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="import" href="/catalog.html">
+   <link rel="stylesheet" href="css/style.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Salgo </title>
+</head>
+<body>
+
+ <div class="container">
+    
+          <div class="header">
+            <div class="headerLogo">  <img src="/img/logo.png" alt="logo"></div>
+            <div class="headerInfo">  
+              <a href="/index.html" class="TextInfo text">Главная</a>
+              <a href="/catalog.html" class="TextInfo text">Каталог</a>
+                <a href="#" class="open-button" onclick="openForm()" >Связаться с нами</a>
+
+                <div class="form-popup" id="myForm">
+                  <form action="sender.php" class="form-container">
+                    <h2>Связаться с нами</h2>
+                
+                    <label for="name"><b>Имя</b></label>
+                    <input type="text"  class="name"placeholder="Ваше имя" name="name" required>
+                  
+                  <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Ваш е-мейл" name="email" required>
+
+                    <label for="email"><b>Телефон</b></label>
+                    <input type="text" class="phone" placeholder="Ваш телефон" name="phone" required>
+                    
+                    <button type="submit" class="btn">Отправить</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+                    <div class="status"></div>
+                  </form>
+                </div>
+              
+
+              </div>
+              <div class="burger-menu">
+                <a href="" class="burger-menu_button">
+                  <spun class="burger-menu_lines"></spun>
+                </a>
+                <nav class="burger-menu_nav">
+                  <a href="/index.html" class="burger-menu_link">Главная</a>
+                  <a href="/catalog.html" class="burger-menu_link">Каталог </a>
+                  <a href="#" class="open-button" onclick="openForm()" >Связаться с нами</a>
+                </nav>
+                <div class="burger-menu_overlay"></div>
+              </div>
+          </div>
+          <div class="firstScreen">
+            
+              <div class="mainInfo text"><p>Мы — являемся импортером авторских <p>грузинских  специй « SALGO »</p></p> 
+              </div>
+                <div class="secondInfo text"> <p>Ощути вкус грузии за ее пределами</p></div>
+            <a href="#"> <img class="ctaMain " src="/img/bi_arrow-down-circle.svg" id="MainCTA" alt=""></a>
+                <p class="center"><img class="mainImage_1  " src="/img/main_1.png" alt="photo">
+                <img class="mainImage_2  mainImage" src="/img/main_2.png" alt="photo"></p>
+            
+          </div>
+            </div>
+  <!-- первый экран закончен-->
+  
+  <div class="secondScreen">
+    <div class="  text textAbout_1  textAbout"><p>Преимущество нашего товара в том, что все специи</p><p> сугубо натуральные, только травы, никаких </p>консервантов, усилителей вкуса и ГМО.  </div>
+
+    <img class="  imageAbout image_1" src="/img/About_1.png" alt="photo">
+
+    <img class="  imageAbout image_2" src="/img/About_2.png" alt="photo">
+    
+    <div class="  text textAbout_2 textAbout"><p>Лишь небольшое количество пряности придает </p><p>максимальный вкус любым блюдам, усиливает</p> их аромат. </div>
+
+    
+
+
+    <div class="  text textAbout_3 textAbout"><p>Уникальность авторских специй заключается в</p><p> качестве их ингредиентов, сбалансированности</p> пропорций и рецептуре, сохраненной годами.</div>
+    
+    <img class="  imageAbout image_3" src="/img/About_3.png" alt="photo">
+  
+   
+    
+  
+  
+  
+  </div>
+  
+<div class="thirdscreen">
+  <div class="mainTitle"><p>Наш ассортимент насчитывает 14 наименований</p> самых распространенных грузинских специй.</div>
+
+  <ul class="NameList">
+    <li>Приправа для супа харчо</li>
+    <li>Имеретинский шафран</li>
+    <li>Ореховая аджика</li>
+    <li>Кондари</li>
+    <li>Уцхо сунели молотый</li>
+    <li>Приправа для чашушули</li>
+    <li>Баже сациви</li>
+    <li>Сванская соль</li>
+    <li>Приправа для лобио</li>
+    <li>Хмели сунели</li>
+    <li>Мегрельская аджика</li>
+    <li>Приправа для рыбы</li>
+    <li>Имеретинская аджика</li>
+    <li>Приправа для блюд с орехами</li>
+
+  </ul>
+
+  <div class="ctasecond">
+
+    <a href="/catalog.html" class="text"><span>Перейти в каталог</span></a>
+  </div>
+
+</div>
+
+
+
+<div class="fourthscreen">
+
+    <div class="dealingtitle">Способы сотрудничества </div>
+    <div class="dealinglist">
+      <ul>
+
+      <li><p>Оптовые поставки специй в различных фасовках от 1,5 кг до</p> <p>25 кг для дальнейшего самостоятельного расфасовывания и</p> реализации.</li>
+
+      <li><p>Оптовые поставки специй в пакетах под торговой маркой « SALGO» ВКУС</p> ГРУЗИИ с приоритетной выкладкой на фирменных картонных стендах</li>
+
+     <li><p>Оптовые поставки специй в пакетах под торговой маркой « SALGO» ВКУС ГРУЗИИ</p><p>и размещение на полках согласно планограмме</p> магазина</li>
+
+      <li>Оптовые поставки под СТМ в пакетах по Вашему ТЗ</li>
+
+      </ul>
+    </div>  
+
+    <div class="ctathird ">
+
+      <a href="#" class="text" class="open-button" onclick="openForm()" ><span>Связаться с нами</span></a>
+    </div>
+  
+</div>
+
+    </div>
+  
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

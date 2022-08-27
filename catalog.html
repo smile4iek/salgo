@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="import" href="/index.html">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Salgo</title>
+</head>
+<body>
+<div class="container">
+      
+      <div class="header">
+         <div class="headerLogo">  <img src="/img/logo.png" alt="logo"></div>
+         <div class="headerInfo">  
+           <a href="/index.html" class="TextInfo text">Главная</a>
+           <a href="/catalog.html" class="TextInfo text">Каталог</a>
+           <a href="#" class="open-button" onclick="openForm()">Связаться с нами</a>
+           
+          </div>
+          <div class="burger-menu">
+            <a href="" class="burger-menu_button">
+              <spun class="burger-menu_lines"></spun>
+            </a>
+            <nav class="burger-menu_nav">
+              <a href="/index.html" class="burger-menu_link">Главная</a>
+              <a href="/catalog.html" class="burger-menu_link">Каталог </a>
+            </nav>
+            <div class="burger-menu_overlay"></div>
+         </div>
+           <div class="form-popup" id="myForm">
+            <form action="#" class="form-container">
+              <h2>Связаться с нами</h2>
+          
+              <label for="name"><b>Имя</b></label>
+              <input type="text" placeholder="Ваше имя" name="name" required>
+            
+            <label for="email"><b>Е-мейл</b></label>
+              <input type="text" placeholder="Ваш е-мейл" name="email" required>
+
+              <label for="email"><b>Телефон</b></label>
+              <input type="text" placeholder="Ваш телефон" name="number" required>
+          
+              <button type="submit" class="btn">Отправить</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+            </form>
+          </div>
+       </div>
+
+       <div class="catalogTitle">Каталог</div>
+<div class="product">
+     <div class="form-popup" id="myForm_1">
+            <form action="#" class="form-container">
+              <h2>Оформить заказ </h2>
+          
+              <label for="name"><b>Имя</b></label>
+              <input type="text" placeholder="Ваше имя" name="name" required>
+            
+            <label for="email"><b>Е-мейл</b></label>
+              <input type="text" placeholder="Ваш е-мейл" name="email" required>
+
+              <label for="email"><b>Телефон</b></label>
+              <input type="text" placeholder="Ваш телефон" name="number" required>
+          
+              <button type="submit" class="btn">Отправить</button>
+              <button type="button" class="btn cancel" onclick="closeForm_2()">Закрыть</button>
+            </form>
+          </div>
+      
+             <div class="shopCard_1">
+               <img src="/img/shopCard_1.png">
+                  <div class="product-list">
+                  <div class="cardName">Сванская соль</div>
+            <span class="price">Цена за 1 кг — 12$</span>
+            <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+             </div>
+               </div>
+      
+               <div class="shopCard_1">
+                  <img src="/img/shopCard_2.png">
+                     <div class="product-list">
+                     <div class="cardName" >Мегрельская аджика </div>
+               <span class="price">Цена за 1 кг — 16$</span>
+               <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                </div>
+                  </div>
+                  
+                  <div class="shopCard_1">
+                     <img src="/img/shopCard_3.png">
+                        <div class="product-list">
+                        <div class="cardName">Имеретинская аджика  </div>
+                  <span class="price">Цена за 1 кг — 18$</span>
+                  <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                   </div>
+                     </div>
+
+                     <div class="shopCard_1">
+                        <img src="/img/shopCard_4.png">
+                           <div class="product-list">
+                           <div class="cardName">Ореxовая аджика  </div>
+                     <span class="price">Цена за 1 кг — 24$</span>
+                     <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                      </div>
+                        </div>
+
+                        <div class="shopCard_1">
+                           <img src="/img/shopCard_5.png">
+                              <div class="product-list">
+                              <div class="cardName"> <p> Приправа для </p>лобио  </div>
+                        <span class="price">Цена за 1 кг — 24$</span>
+                        <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                         </div>
+                           </div>
+
+                           <div class="shopCard_1">
+                              <img src="/img/shopCard_6.png">
+                                 <div class="product-list">
+                                 <div class="cardName"><p>Приправа для</p> суп-xарчо  </div>
+                           <span class="price">Цена за 1 кг — 24$</span>
+                           <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                            </div>
+                              </div>
+
+                              <div class="shopCard_1">
+                                 <img src="/img/shopCard_7.png">
+                                    <div class="product-list">
+                                    <div class="cardName"><p>Приправа для</p> чашушули  </div>
+                              <span class="price">Цена за 1 кг — 24$</span>
+                              <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                               </div>
+                                 </div>
+
+                                 <div class="shopCard_1">
+                                    <img src="/img/shopCard_8.png">
+                                       <div class="product-list">
+                                       <div class="cardName">Xмели сунели </div>
+                                 <span class="price">Цена за 1 кг — 18$</span>
+                                 <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                                  </div>
+                                    </div>
+
+                                    <div class="shopCard_1">
+                                       <img src="/img/shopCard_9.png">
+                                          <div class="product-list">
+                                          <div class="cardName">Уцxо сунели</div>
+                                    <span class="price">Цена за 1 кг — 22$</span>
+                                    <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                                     </div>
+                                       </div>
+
+                                       <div class="shopCard_1">
+                                          <img src="/img/shopCard_10.png">
+                                             <div class="product-list">
+                                             <div class="cardName"><p>Приправа для </p>ореxовыx блюд  </div>
+                                       <span class="price">Цена за 1 кг — 30$</span>
+                                       <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                                        </div>  
+                                          </div>
+
+                                          <div class="shopCard_1">
+                                             <img src="/img/shopCard_11.png">
+                                                <div class="product-list">
+                                                <div class="cardName">Имеретинский шафран </div>
+                                          <span class="price">Цена за 1 кг — 40$</span>
+                                          <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                                           </div>
+                                             </div>
+
+                                             <div class="shopCard_1">
+                                                <img src="/img/shopCard_12.png">
+                                                   <div class="product-list">
+                                                   <div class="cardName">Приправа для рыбы </div>
+                                             <span class="price">Цена за 1 кг — 24$</span>
+                                             <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                                              </div>
+                                                </div>
+
+                                                <div class="shopCard_1">
+                                                   <img src="/img/shopCard_13.png">
+                                                      <div class="product-list">
+                                                      <div class="cardName">Кондари </div>
+                                                <span class="price">Цена за 1 кг — 17$</span>
+                                                <a href=#"" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                                                 </div>
+                                                   </div>
+
+                                                   <div class="shopCard_1">
+                                                      <img src="/img/shopCard_14.png">
+                                                         <div class="product-list">
+                                                         <div class="cardName">Баже сациви </div>
+                                                   <span class="price">Цена за 1 кг — 24$</span>
+                                                   <a href="#" class="button text" onclick="openForm_2()">Оформить заказ</a>
+                                                    </div>
+                                                      </div>
+
+
+</div>
+          
+
+
+
+</div>
+<script src="/js/jquery-3.6.0.min.js"></script>
+
+   <script src="/js/script.js"></script>
+</body>
+</html>
